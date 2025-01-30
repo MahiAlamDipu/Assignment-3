@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- for font Sora -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
+    <!-- Custom Tailwind Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        pc: '#179800',
+                        sc: '#EFEBE3',
+                        stc: '#111111',
+                        firstArrivalColor: '#115414',
+                        secondArrivalColor: '#102861',
+                    },
+                },
+            },
+        }
+    </script>
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/e52d2495a0.js" crossorigin="anonymous"></script>
+    <style>
+        .sora{
+            font-family: "Sora", serif;
+        }
+    </style>
+</head>
+
+<body class="sora text-[1.2rem]">
+    <header>
+        <div class="border-2 border-pc md:border-none mb-12 md:mb-20">
+            <nav class="w-11/12 md:mt-7 md:p-0 p-3 mx-auto flex justify-between items-center">
+                <div class="hidden md:block">
+                    <img src="./c2-assets/logo-header.png" alt="">
+                </div>
+                <div class="md:hidden"><img src="./c2-assets/res-logo.png" alt=""></div>
+                <div class="hidden md:block">
+                    <ul class="flex space-x-8">
+                        <li>Product</li>
+                        <li>Service</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div class="space-x-3 hidden md:block">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <button class="border border-pc py-3 px-7 rounded-xl">Login</button>
+                    <button class="border bg-pc py-3 px-7 rounded-xl text-white">Register</button>
+                </div>
+                <div class="md:hidden">
+                    <i class="fa-solid fa-bars text-pc text-3xl"></i>
+                </div>
+            </nav>
+        </div>
+        <section class="bg-gradient-to-t from-[#EFEBE3] to-white">
+            <div class="w-11/12 mx-auto">
+                <div class="flex flex-col items-center text-center ">
+                    <p class="text-[2.8rem] md:text-[3.2rem] font-semibold">Freshness <span class="text-pc">You Can<br>
+                        Count</span> On, Prices You’ll Love!</p>
+                    <p class="text-gray-600 mt-6 md:w-[800px] mb-3 ">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+                    <img class="text-center " src="./c2-assets/hero-vegetables.png" alt="">
+                </div>
+            </div>
+            
+        </section>
+    </header>
+    <main>
+        <section>
+
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
